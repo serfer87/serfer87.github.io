@@ -34,32 +34,32 @@
 [lesson_12][14]  
 
 
-[1] https://serfer87.github.io/ "Описание"  
+[1][https://serfer87.github.io/ "Описание"]  
 
-[2] https://serfer87.github.io/ "Описание"  
+[2][https://serfer87.github.io/ "Описание"]  
 
-[3] https://serfer87.github.io/ "Описание"  
+[3][https://serfer87.github.io/ "Описание"]  
 
-[4] https://serfer87.github.io/ "Описание"  
+[4][https://serfer87.github.io/ "Описание"]  
 
-[5] https://serfer87.github.io/ "Описание"  
+[5][https://serfer87.github.io/ "Описание"]  
 
-[6] https://serfer87.github.io/ "Описание"  
+[6][https://serfer87.github.io/ "Описание"]  
 
-[7] https://serfer87.github.io/ "Описание"  
+[7][https://serfer87.github.io/ "Описание"]  
 
-[8] https://serfer87.github.io/ "Описание"  
+[8][https://serfer87.github.io/ "Описание"]  
 
-[9] https://serfer87.github.io/ "Описание"  
+[9][https://serfer87.github.io/ "Описание"]  
 
-[10] https://serfer87.github.io/ "Описание"  
+[10][https://serfer87.github.io/ "Описание"]  
 
-[11] https://serfer87.github.io/ "Описание"  
+[11][https://serfer87.github.io/ "Описание"]  
 
-[12] https://serfer87.github.io/ "Описание"  
+[12][https://serfer87.github.io/ "Описание"]  
 
-[13] https://serfer87.github.io/ "Описание"  
+[13][https://serfer87.github.io/ "Описание"]  
 
-[14] https://serfer87.github.io/ "Описание"  
+[14][https://serfer87.github.io/ "Описание"]  
 
 
