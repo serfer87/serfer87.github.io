@@ -5,7 +5,7 @@
 	font-style: bold;
 }
 body {
-	background: url('/img/bg.jpg') 0 0;
+	background: url('../img/bg.jpg') 0 0;
 }
 main {
 	margin: 0 auto;
@@ -40,7 +40,8 @@ form input {
 	height: 29px;
 	margin: 12px 30px;
 	padding-left: 10px;
-	background: url('/img/bg.jpg') 0 0;
+	background: url('../img/bg.jpg') 0 0;
+	border: none;
 }
 form label {
 	margin: 8px 30px;
@@ -59,5 +60,5 @@ form .btn {
 	margin-top: 20px;
 	font-size: 16px;
 	line-height: 43px;
-
+	border: none;
 }
