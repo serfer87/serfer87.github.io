@@ -1,0 +1,135 @@
+@grey: #515151;
+@blue: #5BA2A9;
+@white: #fff;
+
+html {
+	font-style: 10px;
+}
+body {
+	font-family: 'museo_reg', sans-serif;
+}
+section {
+	padding: 4rem 0 8rem;
+}
+a {
+	&:hover, &:focus, &:active {
+		text-decoration: none;
+	}
+}
+button, input, a, textarea {
+	&:focus {
+		outline: none;
+	}
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+.feedback-forms-all {
+	padding: 6rem 0 9rem 0;
+}
+
+.section-title {
+	margin-bottom: 6rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'museo_bold', sans-serif;
+	font-size: 3rem;
+	color: darken(saturate(spin(@grey, 0.0000), 0.0000), 21.1765);
+}
+.content() {
+	content: '';
+	display: inline-block;
+	width: 1.5rem;
+	height: 0.1rem;
+	margin-bottom: 15px;
+	background-color: @blue;
+}
+.section-title .upper-icon-wrapper::before {
+	.content;
+}
+.section-title .upper-icon-wrapper::after {
+	.content;
+}
+.section-title .upper-icon-wrapper .upper-icon {
+  margin-bottom: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+.feedback-form-statement {
+  padding: 6rem 0 0;
+}
+.feedback-form-title {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+.feedback-form-title h3 {
+  margin-bottom: 1.2rem;
+  font-family: 'museo_bold', sans-serif;
+  font-size: 2.5rem;
+  color: darken(saturate(spin(@grey, 0.0000), 0.0000), 21.1765);
+}
+.feedback-form-title p {
+  font-size: 1.8rem;
+}
+.feedback-form-input {
+  position: relative;
+  width: 100%;
+  padding: 1.4rem 4.5rem 1.4rem 1.4rem;
+  border: 2px solid lighten(saturate(spin(@grey, 0.0000), 0.0000), 49.8039);
+  opacity: .5;
+  color: darken(saturate(spin(@grey, 0.0000), 0.0000), 4.7059);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transitiosn: 0.3s;
+  transition: 0.3s;
+}
+
+.color_font-size() {
+  color: @grey;
+  font-size: 1.5rem;
+} 
+.feedback-form-input::-webkit-input-placeholder {
+  .color_font-size;
+}
+.feedback-form-input::-moz-placeholder {
+  .color_font-size;
+}
+.feedback-form-input:-moz-placeholder {
+  .color_font-size;
+}
+.feedback-form-input:-ms-input-placeholder {
+  .color_font-size;
+}
+.feedback-form-input:hover,
+.feedback-form-input:focus {
+  opacity: 1;
+}
+.feedback-form .input-user {
+  background: url(../img/shared/feedback/person-icon.svg) right 1.5rem center no-repeat;
+  background-size: 2rem;
+}
+.feedback-form .input-phone {
+  background: url(../img/shared/feedback/telephone-icon.svg) right 1.5rem center no-repeat;
+  background-size: 2rem;
+}
+.feedback-form-btn {
+  min-width: 100%;
+  padding: 1.2rem 0;
+  background-color: @blue;
+  text-transform: uppercase;
+  border: none;
+  color: @white;
+  font-size: 1.8rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.feedback-form-btn:hover {
+  background-color: darken(desaturate(spin(@blue, 0.1538), 0.0995), 10.0000);
+  border-radius: 10px;
+}
+.feedback-form .title-feedback {
+  display: block;
+}
+.feedback-form .description-feedback {
+  display: block;
+}
