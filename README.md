@@ -11,5 +11,6 @@
 [lesson_10](https://serfer87.github.io/lesson_10) - Урок №10. Препроцессор LESS для CSS  
 [lesson_12](https://serfer87.github.io/) - Урок №12. Хостинг от GitHub  
 [lesson_13](https://serfer87.github.io/lesson_13) - Урок №13. Адаптивная верстка  
-[lesson_14](https://serfer87.github.io/lesson_14) - Урок №14. Практика. Часть 1.    
+[lesson_14](https://serfer87.github.io/lesson_14) - Урок №14. Практика. Часть 1  
+[lesson_15](https://serfer87.github.io/lesson_15) - Урок №14. Подключение шрифтов   
 
