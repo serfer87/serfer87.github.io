@@ -1,0 +1,39 @@
+/* colors */
+/* Basic seting */
+html {
+  font-size: 10px;
+}
+/* Typography */
+section {
+  padding: 10rem 0;
+}
+/* content */
+.button {
+  background: #ffb500;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  border: none;
+}
+/* main */
+main {
+  padding: 3rem 0;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cell {
+  display: inline-block;
+  color: #252525;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 7rem;
+}
+.cell a {
+  text-decoration: none;
+}
