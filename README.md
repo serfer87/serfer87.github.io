@@ -16,3 +16,4 @@
 [lesson_16](https://serfer87.github.io/lesson_16) - Урок №14. Практика. Часть 2  
 [lesson_17](https://serfer87.github.io/lesson_17) - Урок №15. Псевдоклассы и псевдоэлементы  
 [lesson_18](https://serfer87.github.io/lesson_18) - Урок №15. Практика. Часть 3  
+[lesson_19](https://serfer87.github.io/lesson_19) - Урок №16. Слайдер на сайте  
