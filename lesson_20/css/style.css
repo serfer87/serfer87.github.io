@@ -161,8 +161,12 @@ section {
   width: 80%;
   font-size: 1.4rem;
 }
+.features-block p a {
+  display: inline-block;
+  padding: 0.5rem;
+}
 .features-img {
-  height: 8rem;
+  height: 40rem;
   margin-bottom: 3rem;
 }
 .features-img img {
