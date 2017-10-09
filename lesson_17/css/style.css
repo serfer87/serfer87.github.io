@@ -55,6 +55,9 @@ h2 {
   -webkit-box-shadow: 0 -3px #35a76e inset;
           box-shadow: 0 -3px #35a76e inset;
 }
+.button-one:hover {
+  background: #30a468;
+}
 .button-two {
   display: inline-block;
   color: white;
@@ -66,4 +69,7 @@ h2 {
   border-radius: 6px;
   background: -webkit-gradient(linear, left top, left bottom, from(#f3ae0f), to(#e38916)) #e38916;
   background: linear-gradient(#f3ae0f, #e38916) #e38916;
+}
+.button-two:hover {
+  background: #b56d11;
 }
