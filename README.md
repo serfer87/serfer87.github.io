@@ -18,4 +18,5 @@
 [lesson_18](https://serfer87.github.io/lesson_18) - Урок №15. Практика. Часть 3  
 [lesson_19](https://serfer87.github.io/lesson_19) - Урок №16. Слайдер на сайте  
 [lesson_20](https://serfer87.github.io/lesson_20) - Урок №16. Практика. Часть 4.  
-[lesson_21](https://serfer87.github.io/lesson_21) - Урок №17. Всплывающие окна.
+[lesson_21](https://serfer87.github.io/lesson_21) - Урок №17. Всплывающие окна.  
+[lesson_22](https://serfer87.github.io/lesson_22) - Урок №17. Практика. Часть 5.
