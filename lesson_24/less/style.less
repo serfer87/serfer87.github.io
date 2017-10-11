@@ -1,0 +1,28 @@
+@bg-block: #00bbf2;
+@text-color: #00bcf3;
+@text-grey: #525252;
+body {
+	font-size: 10px;
+	background: url('../img/bg.jpg');
+}
+.header {
+	text-transform: uppercase;
+	color: @text-color;
+	h1 {
+		font-size: 3.6rem;
+	}
+	p {
+		font-size: 2.4rem;
+	}
+}
+
+.panel-default>.panel-heading {
+	font-size: 2.32rem;
+	color: #fff;
+	background: @bg-block;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+	font-size: 2.2rem;
+	color: @text-grey;
+}
+
