@@ -1,0 +1,23 @@
+body {
+  font-size: 10px;
+  background: url('../img/bg.jpg');
+}
+.header {
+  text-transform: uppercase;
+  color: #00bcf3;
+}
+.header h1 {
+  font-size: 3.6rem;
+}
+.header p {
+  font-size: 2.4rem;
+}
+.panel-default > .panel-heading {
+  font-size: 2.32rem;
+  color: #fff;
+  background: #00bbf2;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  font-size: 2.2rem;
+  color: #525252;
+}
