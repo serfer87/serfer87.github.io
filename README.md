@@ -21,4 +21,5 @@
 [lesson_21](https://serfer87.github.io/lesson_21) - Урок №17. Всплывающие окна.  
 [lesson_22](https://serfer87.github.io/lesson_22) - Урок №17. Практика. Часть 5.  
 [lesson_23_1](https://serfer87.github.io/lesson_23/lesson_23_1) - Урок №18. Практика. Табы.  
-[lesson_23_2](https://serfer87.github.io/lesson_23/lesson_23_2) - Урок №18. Практика. Аккордеон.
+[lesson_23_2](https://serfer87.github.io/lesson_23/lesson_23_2) - Урок №18. Практика. Аккордеон.  
+[lesson_224](https://serfer87.github.io/lesson_24) - Урок №18. Практика.
