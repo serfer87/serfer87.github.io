@@ -24,4 +24,8 @@
 [lesson_23_2](https://serfer87.github.io/lesson_23/lesson_23_2) - Урок №18. Практика. Аккордеон.  
 [lesson_24](https://serfer87.github.io/lesson_24) - Урок №18. Практика.  
 [lesson_25](https://serfer87.github.io/lesson_25) - Урок №18. Практика.Часть 6.  
-[lesson_26](https://serfer87.github.io/lesson_26) - Урок №19. Практика. Часть 7.
+[lesson_26](https://serfer87.github.io/lesson_26) - Урок №19. Практика. Часть 7.  
+
+
+[lesson_28](https://serfer87.github.io/lesson_28) - Урок №20. Практика. Часть 8.
+
