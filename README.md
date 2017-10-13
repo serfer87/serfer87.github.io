@@ -27,5 +27,6 @@
 [lesson_26](https://serfer87.github.io/lesson_26) - Урок №19. Практика. Часть 7.  
 
 
-[lesson_28](https://serfer87.github.io/lesson_28) - Урок №20. Практика. Часть 8.
+[lesson_28](https://serfer87.github.io/lesson_28) - Урок №20. Практика. Часть 8.  
+[lesson_29](https://serfer87.github.io/lesson_29) - Урок №21. Parallax эффект для сайта.
 
