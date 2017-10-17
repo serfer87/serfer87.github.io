@@ -190,7 +190,7 @@
             </div><!--//item-->
             <div class="item item-reversed center-block">
                 <div class="profile-holder">
-                    <img class="profile-image" src="assets/images/profile-2.png" alt="profile" data-stellar-ratio="2">
+                    <img class="profile-image" src="assets/images/profile-2.png" alt="profile">
                 </div>
                 <div class="quote-holder">
                     <blockquote class="quote">
@@ -204,7 +204,7 @@
             </div><!--//item-->
             <div class="item center-block">
                 <div class="profile-holder">
-                    <img class="profile-image" src="assets/images/profile-3.png" alt="profile" data-stellar-ratio="2">
+                    <img class="profile-image" src="assets/images/profile-3.png" alt="profile">
                 </div>
                 <div class="quote-holder">
                     <blockquote class="quote">
@@ -218,7 +218,7 @@
             </div><!--//item-->
             <div class="item item-reversed center-block">
                 <div class="profile-holder">
-                    <img class="profile-image" src="assets/images/profile-4.png" alt="profile" data-stellar-ratio="2">
+                    <img class="profile-image" src="assets/images/profile-4.png" alt="profile">
                 </div>
                 <div class="quote-holder">
                     <blockquote class="quote">
@@ -236,7 +236,7 @@
     
     <div id="features" class="features-section">
         <div class="container text-center">
-            <h2 class="section-title">Discover Features</h2>
+            <h2 class="section-title rellax" data-rellax-speed="0.5">Discover Features</h2>
             <p class="intro">AppKit comes with an AngularJS version, 4 colour schemes and 100+ components</p>
             
             <div class="tabbed-area row">
@@ -433,12 +433,20 @@
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>     
     <script type="text/javascript" src="assets/js/main.js"></script> 
+    <script src="assets/js/min/rellax.min.js"></script>
     
     <!-- <script src="assets/js/min/parallax.min.js"></script> -->
     <script src="assets/js/jquery.stellar.min.js"></script>
     <script>
+      // Also can pass in optional settings block
+      var rellax = new Rellax('.rellax', {
+        speed: -2,
+        center: false,
+        round: true,
+      });
+    </script>
+    <script>
        $(function() {
-        
          // Parallax background
          // http://markdalgleish.com/projects/stellar.js/docs/
          $.stellar({
