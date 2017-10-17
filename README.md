@@ -28,5 +28,8 @@
 
 
 [lesson_28](https://serfer87.github.io/lesson_28) - Урок №20. Практика. Часть 8.  
-[lesson_29](https://serfer87.github.io/lesson_29) - Урок №21. Parallax эффект для сайта.
+[lesson_29](https://serfer87.github.io/lesson_29) - Урок №21. Parallax эффект для сайта.  
+
+
+[lesson_31](https://serfer87.github.io/lesson_31) - Урок №22. Гео-карты для сайта.
 
