@@ -449,7 +449,7 @@ section {
   height: 3rem;
 }
 .problems-list_bad {
-  border-color: #e8e8e8;
+  border-color: e8e8e8;
 }
 .problems-list_bad h4 {
   opacity: 0.5;
@@ -569,8 +569,8 @@ section {
   .hand_right {
     bottom: -5rem;
   }
-  .all-inclusive h2 {
-    text-align: center;
+  .all-inclusive {
+    margin-top: 2rem;
   }
   .problems-list {
     min-height: auto;
@@ -615,8 +615,10 @@ section {
   .scheme-block {
     height: auto;
   }
+  .all-inclusive {
+    margin-top: 65rem;
+  }
   .all-inclusive .section-header h2 {
     font-size: 2.6rem;
-    text-align: center;
   }
 }
