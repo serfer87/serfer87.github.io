@@ -16,9 +16,10 @@
 /* colors */
 /* Basic seting */
 html {
-  font-size: 10px;
+  /* font-size: 10px; */
 }
 body {
+  font-size: 10px;
   font-family: 'ProximaNova', sans-serif;
 }
 a:hover {
@@ -264,7 +265,7 @@ section {
   margin-right: 1rem;
   width: 1.4rem;
   height: 1.4rem;
-  background: url('img/check.svg');
+  background: url('../img/checked.svg');
   vertical-align: middle;
 }
 .feedback {
@@ -348,8 +349,128 @@ section {
 .hand {
   padding: 0;
   bottom: 0;
-  left: 0;
   max-width: 30rem;
+  left: 0;
+}
+.scheme {
+  background: #ffffff url('../img/scheme/scheme-bg.png') bottom -10rem right -15rem no-repeat;
+  padding-bottom: 0;
+  background-size: 65rem;
+  text-align: center;
+  max-height: 95rem;
+  position: relative;
+}
+.scheme-block {
+  min-height: 30rem;
+}
+.scheme h3 {
+  font-size: 2rem;
+  font-family: 'ProximaNovaBold', sans-serif;
+}
+/* all-inclusive */
+.all-inclusive {
+  background: #fcfcfc;
+}
+.all-inclusive h2 {
+  text-align: center;
+  color: #008f00;
+}
+.all-inclusive .media {
+  min-height: 11rem;
+  font-size: 1.3rem;
+  text-align: left;
+}
+.all-inclusive .media h4 {
+  font-family: 'ProximaNovaBold', sans-serif;
+  font-size: 1.6rem;
+}
+.all-inclusive .media p {
+  font-size: 1.1rem;
+}
+.circle {
+  display: inline-block;
+  background: #008f00;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.circle-border {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  padding: 0.3rem;
+  border: 2px solid #008f00;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 4rem;
+  color: #ffffff;
+  font-family: 'ProximaNovaBold', sans-serif;
+  font-size: 1.9em;
+}
+/* Развеем опасения */
+.problems {
+  position: relative;
+}
+.problems-girl {
+  position: absolute;
+  width: 30rem;
+  bottom: 0;
+  left: 50%;
+  margin-left: -19rem;
+}
+.problems-list {
+  border: 4px solid;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  min-height: 35rem;
+}
+.problems-list h4 {
+  font-size: 2.1rem;
+  font-family: 'ProximaNovaBold', sans-serif;
+}
+.problems-list ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 2rem;
+}
+.problems-list ul li {
+  padding-left: 3.5rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+.problems-list ul li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+}
+.problems-list_bad {
+  border-color: e8e8e8;
+}
+.problems-list_bad h4 {
+  opacity: 0.5;
+}
+.problems-list_bad ul li:before {
+  background: url('../img/problems/problem.svg') center no-repeat;
+  background-size: 70%;
+}
+.problems-list_good ul li:before {
+  background: url('../img/problems/checked.svg') center no-repeat;
+  background-size: 70%;
+}
+.map {
+  background: #ffffff url('../img/map/bg.png') bottom center no-repeat;
+}
+.map h4 {
+  margin-top: 3rem;
+}
+.map .form {
+  background: #ffffff;
+  padding: 0 3rem 3rem;
 }
 /* modal */
 .popup {
@@ -399,6 +520,12 @@ section {
   .feedback .fotorama {
     margin-bottom: 3rem;
   }
+  .all-inclusive .media {
+    min-height: 11rem;
+  }
+  .promlems-list {
+    min-height: 40rem;
+  }
 }
 @media (max-width: 991px) {
   .main {
@@ -439,6 +566,18 @@ section {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
+  .hand_right {
+    bottom: -5rem;
+  }
+  .all-inclusive {
+    margin-top: 2rem;
+  }
+  .problems-list {
+    min-height: auto;
+  }
+  .problems-girl {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .main {
@@ -450,16 +589,36 @@ section {
   .header {
     text-align: center;
   }
+  .wrap {
+    position: relative;
+  }
   .wrap-block {
-    text-align: center;
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   .features-block p {
     width: 60%;
   }
-  -prev-btn {
+  .feedback-prev-btn {
     left: 0;
   }
-  -next-btn {
+  .feedback-next-btn {
     right: 0;
+  }
+  .scheme {
+    background: none;
+    text-align: center;
+  }
+  .scheme-block {
+    height: auto;
+  }
+  .all-inclusive {
+    margin-top: 65rem;
+  }
+  .all-inclusive .section-header h2 {
+    font-size: 2.6rem;
   }
 }
