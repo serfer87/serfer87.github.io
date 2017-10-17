@@ -25,11 +25,11 @@
 [lesson_24](https://serfer87.github.io/lesson_24) - Урок №18. Практика.  
 [lesson_25](https://serfer87.github.io/lesson_25) - Урок №18. Практика.Часть 6.  
 [lesson_26](https://serfer87.github.io/lesson_26) - Урок №19. Практика. Часть 7.  
-
+[lesson_27](https://serfer87.github.io/lesson_27) - Урок №20. Практика. Часть 7(Видеофон на сайте).  
 
 [lesson_28](https://serfer87.github.io/lesson_28) - Урок №20. Практика. Часть 8.  
 [lesson_29](https://serfer87.github.io/lesson_29) - Урок №21. Parallax эффект для сайта.  
-
-
-[lesson_31](https://serfer87.github.io/lesson_31) - Урок №22. Гео-карты для сайта.
+[lesson_30](https://serfer87.github.io/lesson_30) - Урок №21. Практика. Часть 9.  
+[lesson_31](https://serfer87.github.io/lesson_31) - Урок №22. Гео-карты для сайта.  
+[lesson_32](https://serfer87.github.io/lesson_32) - Урок №22. Практика. Часть 10.  
 
